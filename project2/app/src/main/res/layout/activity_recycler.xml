@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/the_pic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:riv_oval="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/the_title"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:textColor="#e8e8e8"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:id="@+id/the_info"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textColor="#8b8c91"
+            android:textSize="15dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="80dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/the_time"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#8b8c91"
+            android:gravity="center"
+            android:textSize="15dp"/>
+    </LinearLayout>
+
+</LinearLayout>
