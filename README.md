@@ -1,7 +1,7 @@
 # MyAndroidProject
 小学期实践
 #作业2第二题，统计一个页面中的某控件的数目，可以用以下代码实现（网上查阅获得）
-` ``
+` ``java
     private static int labelNum(String filePath, String labelName) {
         int count = 0;
         try {
