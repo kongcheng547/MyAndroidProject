@@ -1,4 +1,4 @@
-# \<center\>post和get的区别\</center\>
+# <center>post和get的区别</center>
 
 ### 内容详解
 
