@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:id="@+id/process_Bar"
+                style="@android:style/Widget.Holo.SeekBar"
+             />
+
+            <Button
+                android:id="@+id/convert_Oriention"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-40dp"
+                android:layout_marginRight="3dp"
+                android:layout_toRightOf="@id/process_Bar"
+                android:text="转换"
+                android:textSize="5sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20sp"
+            android:textSize="15sp"
+            android:id="@+id/process_Time"
+            android:textColor="#000000"
+            android:text="00:00:00 / 00:00:00"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonPlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play" />
+
+    <Button
+        android:id="@+id/buttonPause"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pause" />
+</LinearLayout>
