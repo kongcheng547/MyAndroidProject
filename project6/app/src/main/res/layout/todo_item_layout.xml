@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:id="@+id/checkbox"
+        android:layout_marginTop="4dp"
+        />
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:textColor="@android:color/black"
+        tools:text="This is the content"
+        android:layout_toRightOf="@id/checkbox"/>
+    <TextView
+        android:id="@+id/tv_timestamp"
+        android:layout_toRightOf="@id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_content"
+        android:layout_marginTop="3dp"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        tools:text="This is the timestamp"/>
+
+    <Button
+        android:id="@+id/delete_Button"
+        android:layout_width="20dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:background="#FFFFFF"
+        android:text="@string/delete_Button" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/cardview_dark_background"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>
